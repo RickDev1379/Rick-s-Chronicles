@@ -11,17 +11,21 @@ body {
 }
 p{
     color: rgb(85,85,85);
+    width: 1000px;
 }
+
 
 /* Nav */
 nav, .nav-links {
    display: flex; 
-
 }
 nav{
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 7vh;
+    margin-bottom: 3vh;
+    color: white;
+    background-color: black;
 }
 .nav-links{
     list-style: none;
@@ -29,27 +33,46 @@ nav{
     font-size: 1.5rem;
 }
 a.nav-link{
-    color: black; 
+    color: white; 
     padding: 5px;
     text-decoration: none;
+    transition: all ease-out;
     /* text-decoration-color: white; */
+
 }
 a:hover{
-    color: rgb(85, 85, 85);
+    color: rgb(150, 150, 150);
     border: 1px, solid, black;
-    border-color: rgb(85, 85, 85);
+    border-color: rgb(150, 150, 150);
 }
 #Name{
     cursor: default;
 }
 
+/*About Me*/
+#AboutMeContainer{
+    justify-content: center;
+    display: flex;
+}
+#AboutMe{
+    margin-right: 50px;
+}
+
+/*Profile*/
+#Profile{
+    display: flex;
+    justify-content: center;
+}
+
 /* Images */
 #ProfilePhoto{
     width: 250px;
-    height: 250px;
+    height: 300px;
     border-radius: 50%;
+    margin-right: 50px;
 }
 .logos{
+    margin-top: 10px;
     width: 50px;
     height: 50px;
 }

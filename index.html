@@ -3,30 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rick's Chronicles</title>
     <link rel="stylesheet" href="styles/style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat:wght@700&family=Fira+Code&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <nav>
-        <div id="Name">Ricardo Gomez</div>
-        <ul class="nav-links">
-            <li><a class="nav-link" href="#AboutMe"> About Me</a></li>
-            <li><a class="nav-link" href="#Projects">Projects</a></li>
-            <li><a class="nav-link" href="#Resume">Resume</a></li>
-            <li><a class="nav-link" href="#ContactMe">Contact Me</a></li>
-        </ul>
-    </nav>
-    <img id="ProfilePhoto" src="images/profile-photo.jpg" alt="My Profile Photo"/>
-    <img class="logos" src="images/linkedin-logo.png" alt="My Linkedin Profile" onclick="location.href='https://linkedin.com/in/rickdev1379/'"/>
-    <img class="logos" src="images/github-logo.png" alt="My Github Profile" onclick="location.href='https://github.com/RickDev1379/'"/>
-    <h1 id="AboutMe">About Me</h1>
-    <p>I'm Ricardo Gomez. I am a software developer. 
-        I have completed my Bachelor's Degree in Computer Science at Full Sail University.
-        I have developed a solid foundation in computer programming.
-        With Hands-on experience I am eager to bring and improve my skills in a professional setting.
-        I am eager to learn new more in my profession as a software engineer, given it is continuously growing.</p>
+    <header>
+        <nav>
+            <div id="Name">Ricardo Gomez</div>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#AboutMe"> About Me</a></li>
+                <li><a class="nav-link" href="#Projects">Projects</a></li>
+                <li><a class="nav-link" href="#Resume">Resume</a></li>
+                <li><a class="nav-link" href="#ContactMe">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Profile">
+        <img id="ProfilePhoto" src="images/profile-photo.jpg" alt="My Profile Photo"/>
+        <div>
+            <p>Hello, I am <b>Ricardo Gomez</b>.</p>
+            <p><b>Software Developer</b></p>
+            <img class="logos" src="images/linkedin-logo.png" alt="My Linkedin Profile" onclick="location.href='https://linkedin.com/in/rickdev1379/'"/>
+            <img class="logos" src="images/github-logo.png" alt="My Github Profile" onclick="location.href='https://github.com/RickDev1379/'"/>
+        </div>
+    </section>
+
+    <div id="AboutMeContainer">   
+        <h1 id="AboutMe">About Me</h1>
+        <p>
+            I am a  software engineer with a Bachelor's Degree in Computer Science, where I have started my programming journey and develop.
+        I am a Full Sail University Graduate with a Bachelor's degree in Computer Science.
+        Over the course of my studies, I developed the ability to work in several programming languages, such as C#, C++, Dart, Flutter and Java.
+        My primary concentration has been in Android development, where I have created many projects in Java and took on every task I was given to compile functional and user-friendly mobile apps.
+        Since graduating, I continue to learn new skills, such as HTML and CSS. I inspire to contribute to the society's advancement by contributing in software that brings about some sort of change in our world. 
+        I look forward to securing employment in software development which will allow me to balance my technical knowledge with passion for forward thinking to help shape the next generation of technology.
+        </p>
+    </div>    
     
     <h1 id="Projects">Projects</h1>
     <p>TranslatedText: A messaging app to allow users to connect with others no matter the language barrier</p>
